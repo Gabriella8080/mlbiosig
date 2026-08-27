@@ -23,8 +23,6 @@ Among the bespoke biotic and abiotic samples generated within the Imperial Colle
 
 Raw py-GC-MS data is stored as a `.D` folder containing binary files specific to Agilent instrumentation. Hence, before this data can be opened and explored in the **Qualitative Analysis Navigator**, it must be first translated into a compatible format. There are several Translator tools provided by Agilent. The most suitable for this scenario is **Agilent GC MSD Translator** from the MassHunter suite, whereby the raw Winchcombe py-GC-MS `.D` data folder is translated and outputed into a processed format readable by the **Qualitative Analysis Navigator**.
 
-> **Further Information**: Please refer to the following link for the [translation log](translation-logs/py-GCMS-Data-File-Translation-Log.txt) of the raw py-GC-MS data file used within this documentation.
-
 ---
 ### Extracting Mass Spectrum
 After translating the Winchcombe py-GC-MS dataset into a readable format, mass spectrum ('MS Spectrum') extraction is performed. At each scan interval, the MS captures a mass spectrum (m/z $\times$ intensity) which represents all ion fragments detected at that specific retention time. As the Agilent instrumentation utilised in ICOG has a 3 Hz scan rate, an MS Spectrum is captured at 3 scans/second.
