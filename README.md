@@ -1,16 +1,12 @@
 # mlbiosig: Interpretable Machine Learning Tool for Biosignature Interpretation on Icy Ocean Worlds
 
 ![CI](https://github.com/ese-ada-lovelace-2025/irp-gmr24/actions/workflows/CI.yml/badge.svg)
-![Project Plan](https://github.com/ese-ada-lovelace-2025/irp-gmr24/actions/workflows/project-plan.yml/badge.svg)
-![Final Report](https://github.com/ese-ada-lovelace-2025/irp-gmr24/actions/workflows/final-report.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-BSD--3-blue)
 
 
-<i>Gabriella Rajpoot<sup>1</sup>, Mark Sephton<sup>1,*</sup>, Velisa Vesovic<sup>1,**</sup></i>
+<i>Gabriella Rajpoot<sup>1</sup>, Solomon Hirsch<sup>1</sup>, Jonathan Watson<sup>1</sup>, Mark Sephton<sup>1</i>
 
 <sup>1</sup>Royal School of Mines, Prince Consort Road, South Kensington, London SW7 2BP
-
-<sup>*</sup>Supervisor, <sup>**</sup>Second Supervisor
 
 
 ## Overview
