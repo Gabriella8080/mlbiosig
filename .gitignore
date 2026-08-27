@@ -1,0 +1,15 @@
+# Python cached files:
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints:
+.ipynb_checkpoints/
+
+# VSCode-related:
+.vscode/
+
+# Environment variables:
+.env
+
+# Python packaging:
+*.egg-info/
