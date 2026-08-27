@@ -1,0 +1,26 @@
+name: mlbiosig-tests
+
+on: [push, pull_request]
+
+jobs:
+  tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+shl
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install package and development dependencies
+        run: pip install -e ".[dev]"
+
+      - name: Check Python script formatting
+        run: black --check .
+
+      - name: Run tests
+        run: pytest
