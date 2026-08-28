@@ -5,12 +5,6 @@ type: software
 authors:
   - family-names: Rajpoot
     given-names: Gabriella
-  - family-names: Hirsch 
-    given-names: Solomon
-  - family-names: Watson
-    given-names: Jonathan
-  - family-names: Sephton
-    given-names: Mark
 repository-code: 'https://github.com/Gabriella8080/mlbiosig'
 license: BSD-3-Clause
 version: 0.1.0
