@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: 'mlbiosig: Machine Learning for Biosignature Interpretation on Icy Ocean Worlds'
+message: 'If you use mlbiosig or its methods in your research, please cite the accompanying paper.'
+type: software
+authors:
+  - family-names: Rajpoot
+    given-names: Gabriella M. Z.
+    email: gabriella.rajpoot24@imperial.ac.uk
+  - family-names: Hirsch 
+    given-names: Solomon W.
+    email: s.hirsch23@imperial.ac.uk
+  - family-names: Watson
+    given-names: Jonathan S.
+    email: jonathan.watson@imperial.ac.uk
+  - family-names: Sephton
+    given-names: Mark A.
+    email: m.a.sephton@imperial.ac.uk
+repository-code: 'https://github.com/Gabriella8080/mlbiosig'
+license: BSD-3-Clause
+version: 0.1.0
+keywords:
+  - machine learning
+  - biosignatures
+  - astrobiology
+  - mass spectrometry
+  - py-GC-MS
+  - py-MS
+  - Europa Clipper
+  - MASPEX
+  - icy ocean worlds
