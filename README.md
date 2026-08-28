@@ -12,7 +12,7 @@ This work transforms 154 py-GC-MS biotic and abiotic datasets into normalised py
 
 The resulting `mlbiosig` Python package provides an automated implementation of the preprocessing, feature engineering, model training, evaluation, and interpretability frameworks developed across this study.
 
-> **Accompanying Paper**: *From Mass Spectra to Biosignatures: Interpretable Machine Learning for Life Detection on Icy Ocean Worlds* - in preparation.
+> **Accompanying Paper**: *'From Mass Spectra to Biosignatures: Interpretable Machine Learning for Life Detection on Icy Ocean Worlds'*. (in preparation).
 
 
 ## Repository Structure
@@ -30,11 +30,11 @@ The resulting `mlbiosig` Python package provides an automated implementation of 
 
 ## Data Availability
 
-The raw py-GC-MS `.D` datasets used in this work are proprietary to the ICOG laboratories and are therefore not made publicly available. The 154 mass-spectral CSV files extracted from these `.D` datasets and used for experiments are provided across [`data/biotic/`](data/biotic/) and [`data/abiotic/`](data/abiotic/). 
+The raw py-GC-MS `.D` files used for data acquisition are proprietary to the ICOG laboratories and are therefore not made publicly available. The 154 mass-spectral CSV files extracted from these `.D` datasets and used within experiments are provided in this repository across [`data/biotic/`](data/biotic/) and [`data/abiotic/`](data/abiotic/). 
 
 Extensive [documentation](docs/pygcms-preparation.md) describing the preparation of raw py-GC-MS data, extraction of mass-spectral measurements, and exporting of the resulting CSV files using Agilent MassHunter software is provided.
 
-> **Sample Inventory**: A breakdown of all raw py-GC-MS `.D` samples used in this work can be found [here](docs/total-sample-breakdown.md). Ultimately, 140 biotic and 14 abiotic samples were included.
+> **Sample Inventory**: A breakdown of the 154 py-GC-MS `.D` samples used for mass-spectral data extraction can be found [here](docs/total-sample-breakdown.md). Ultimately, 140 biotic and 14 abiotic samples were included.
 
 
 ## `mlbiosig` Installation
@@ -53,7 +53,7 @@ The package can then be imported using:
 import mlbiosig
 ```
 
-The recommended environment for using `mlbiosig` is the provided Conda [environment](environment.yml).
+`mlbiosig` is recommended to be used with the provided Conda [environment](environment.yml).
 
 
 ## Example Usage & Workflow
@@ -65,11 +65,11 @@ The recommended environment for using `mlbiosig` is the provided Conda [environm
 * [`classifiers`](mlbiosig/classifiers.py): Conducts automated hyperparameter tuning on fixed search ranges, and trains four classifier architectures.
 * [`evaluate`](mlbiosig/evaluate.py): Evaluates model performance and investigates interpretability.
 
-An example of using `mlbiosig` and the modules above is provided in the following [demonstration notebook](notebooks/mlbiosig_demo/01_mlbiosig_demo.ipynb). This includes instructions on loading and constructing the py-MS feature matrix, applying preprocessing and feature engineering, training and evaluating all four classifiers, applying interpretability frameworks, and a guide on collectively using these frameworks to investigate the m/z fragment ions driving biotic predictions.
+An exemplar workflow showing usage of `mlbiosig` and its above modules is provided in the following [demonstration notebook](notebooks/mlbiosig_demo/01_mlbiosig_demo.ipynb). This includes instructions on loading and constructing the py-MS feature matrix, applying preprocessing and feature engineering, training and evaluating all four classifiers, applying interpretability frameworks, and a guide on collectively using these frameworks to investigate the m/z fragment ions driving biotic predictions.
 
 ## Development Notebooks
 
-The development notebooks document the chronological implementation and methodological frameworks integrated into `mlbiosig`. This includes:
+The development notebooks document the chronological implementation and methodological frameworks integrated into `mlbiosig`, and provides the workflows deriving its experimental results. This includes:
 
 * Preprocessing ([Notebook 1](notebooks/mlbiosig_dev/01_preprocessing.ipynb))
 * Feature engineering ([Notebook 2](notebooks/mlbiosig_dev/02_feature_engineering.ipynb))
@@ -80,7 +80,7 @@ The development notebooks document the chronological implementation and methodol
 
 All code and processed mass-spectral CSV data required to reproduce the experimental results and analyses across this study are provided in this repository. 
 
-Rerunning [notebooks](notebooks/) with the specified environment and data will reproduce reported results and unannotated figures subject to small numerical differences arising from the stochastic variation in hyperparameter tuning and classifier training. 
+Rerunning [notebooks](notebooks/) with the specified environment and data will reproduce reported results and unannotated figures, subject to small numerical differences arising from the stochastic variation in hyperparameter tuning and classifier training. 
 
 ## Testing \& Validation
 
@@ -98,7 +98,7 @@ pytest
 
 ## License
 
-The `mlbiosig` Python package source code is released under BSD 3-Clause License, with citation details provided in the [`CITATION.cff`](CITATION.cff) files. The laboratory-generated py-GC-MS `.D` datasets used are proprietary to the ICOG laboratories and are therefore not made publicly available.
+The `mlbiosig` Python package source code is released under BSD 3-Clause License, with citation details provided in the [`CITATION.cff`](CITATION.cff) file. The laboratory-generated py-GC-MS `.D` datasets used are proprietary to the ICOG laboratories and are therefore not made publicly available.
 
 ## Bibliography
 
