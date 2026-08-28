@@ -22,7 +22,7 @@ The resulting `mlbiosig` Python package provides an automated implementation of 
 | [`data/`](data/) | Mass-spectral CSV files extracted from ICOG py-GC-MS datasets (separated into [`biotic/`](data/biotic/) and [`abiotic/`](data/abiotic/) according to sample class). |
 | [`docs/`](docs/) | Documentation covering [data preparation](docs/pygcms-preparation.md) and [sample inventory](docs/total-sample-breakdown.md). |
 | [`mlbiosig/`](mlbiosig/) | `mlbiosig` Python package source code.  |
-| [`notebooks/mlbiosig_demo/`](/irp-gmr24/notebooks/mlbiosig_demo/) | [Demonstration notebook](notebooks/mlbiosig_demo/01_mlbiosig_demo.ipynb) showing exemplar `mlbiosig` workflow. |
+| [`notebooks/mlbiosig_demo/`](/notebooks/mlbiosig_demo/) | [Demonstration notebook](notebooks/mlbiosig_demo/01_mlbiosig_demo.ipynb) showing exemplar `mlbiosig` workflow. |
 | [`notebooks/mlbiosig_dev/`](notebooks/mlbiosig_dev/) | Development notebooks documenting implementations, methodological choices, and experimental results. |
 | [`tests`](tests/) | Unit tests validating `mlbiosig` functionalities and edge case performance.|
 | [`environment.yml`](environment.yml) | Conda environment for `mlbiosig` specifying required dependencies.|
