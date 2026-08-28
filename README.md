@@ -29,7 +29,7 @@ The resulting `mlbiosig` Python package provides an automated implementation of 
 
 ## Data Availability
 
-The raw py-GC-MS `.D` files used for data acquisition are proprietary to the ICOG laboratories and are therefore not made publicly available. The 154 mass-spectral CSV files extracted from these `.D` datasets and used within experiments are provided in this repository across [`data/biotic/`](data/biotic/) and [`data/abiotic/`](data/abiotic/). 
+The raw py-GC-MS `.D` files used for data acquisition are proprietary to the Imperial College Organic Geochemistry (ICOG) laboratories and are therefore not made publicly available. The 154 mass-spectral CSV files extracted from these `.D` datasets and used within experiments are provided in this repository across [`data/biotic/`](data/biotic/) and [`data/abiotic/`](data/abiotic/). 
 
 Extensive [documentation](docs/pygcms-preparation.md) describing the preparation of raw py-GC-MS data, extraction of mass-spectral measurements, and exporting of the resulting CSV files using Agilent MassHunter software is provided.
 
