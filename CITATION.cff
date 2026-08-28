@@ -4,13 +4,13 @@ message: 'If you use mlbiosig or its methods in your research, please cite the a
 type: software
 authors:
   - family-names: Rajpoot
-    given-names: Gabriella M. Z.
+    given-names: Gabriella
   - family-names: Hirsch 
-    given-names: Solomon W.
+    given-names: Solomon
   - family-names: Watson
-    given-names: Jonathan S.
+    given-names: Jonathan
   - family-names: Sephton
-    given-names: Mark A.
+    given-names: Mark
 repository-code: 'https://github.com/Gabriella8080/mlbiosig'
 license: BSD-3-Clause
 version: 0.1.0
