@@ -4,7 +4,7 @@
 
 *Agilent Technologies* is an American company that provides advanced instrumentation and software for life science research. One of their most critical analytical instruments for biosignature detection studies at the Imperial College Organic Geochemistry (ICOG) laboratories is **Gas Chromatography-Mass Spectrometry** (GC-MS). The corresponding **MassHunter** software acquires, processes and analyses GC-MS and pyrolysis-GC-MS (py-GC-MS) data in order to identify and quantify compounds.
 
-py-GC-MS is a method of chemical analysis whereby a solid sample is heated to decomposition to produce smaller molecules, which are subsequently separated by GC and detected using MS (University of Melbourne, 2026). This method typically requires minimal sample preparation in comparison to GC-MS and therefore avoids intermediate steps, such as solvent extraction and derivatisation, that lead to variation between GC-MS datasets. Furthermore, I intend to reduce py-GC-MS data into py-MS data using Python, thus removing retention time dependencies discussed in previous [documentation](docs/gcms-preparation.md). py-GC-MS data is three-dimensional (3-D), measuring and storing:
+py-GC-MS is a method of chemical analysis whereby a solid sample is heated to decomposition to produce smaller molecules, which are subsequently separated by GC and detected using MS (University of Melbourne, 2026). This method typically requires minimal sample preparation in comparison to GC-MS and therefore avoids intermediate steps, such as solvent extraction and derivatisation, that lead to variation between GC-MS datasets. Furthermore, I intend to reduce py-GC-MS data into py-MS data using Python, thus removing retention time dependencies. py-GC-MS data is three-dimensional (3-D), measuring and storing:
 * **Retention Time** (minutes, seconds, scans): Time taken for a compound to travel through the GC column to the detector.
 * **Mass-to-Charge ratio** (m/z): Mass of ionised compound fragments detected by MS.
 * **Intensity** (counts): Signal abundance of individual ion fragments against time.
@@ -50,7 +50,7 @@ A step-by-step guide for exporting the mass spectral data to a CSV file is provi
 ![Exporting MS Spectrum](images/export-MS-spectrums.png)
 *Figure 2: Exporting MS Spectrum to a CSV file for sample 20210729_1_WICHCOMBE-NONHYD-SP, viewed in Agilent MassHunter Qualitative Analysis Navigator software.*
 
-The `Point` variable is essentially an index that resets at the beginning of a new scan, and therefore new MS Spectrum, captured at a different retention time. An example of the `Point` variable resetting is shown below from the [CSV file](../exploratory/data/winchcombe-nonhyd-sp.CSV) of the exemplar Winchcombe py-GC-MS dataset used in this documentation:
+The `Point` variable is essentially an index that resets at the beginning of a new scan, and therefore new MS Spectrum, captured at a different retention time. An example of the `Point` variable resetting is shown below from the [CSV file](../data/exploratory/winchcombe-nonhyd-sp.CSV) of the exemplar Winchcombe py-GC-MS dataset used in this documentation:
 
 | Point | X(Thomsons) | Y(Counts) |
 |---|---|---|

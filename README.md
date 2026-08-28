@@ -1,6 +1,5 @@
 # mlbiosig: Machine Learning Tool for Biosignature Interpretation on Icy Ocean Worlds
 
-![CI](https://github.com/Gabriella8080/mlbiosig/actions/workflows/CI.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-BSD--3-blue)
 
 
