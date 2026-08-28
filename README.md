@@ -6,13 +6,13 @@
 
 ## Overview
 
-`mlbiosig` an interpretable binary machine learning (ML) framework for distinguishing between biotic and abiotic pyrolysis-gas chromatography-mass spectrometry (py-GC-MS) samples, and identifying the mass-to-charge ratio (m/z) fragment ions driving model predictions. This work is motivated by the challenge of abiotic mimicry facing NASA's Europa Clipper (Pappalardo et al. 2024) and its MAss Spectrometer for Planetary EXploration (MASPEX) instrument (Waite et al. 2024).
+`mlbiosig` is an interpretable binary machine learning (ML) framework for distinguishing between biotic and abiotic pyrolysis-gas chromatography-mass spectrometry (py-GC-MS) samples, and identifying the mass-to-charge ratio (m/z) fragment ions driving model predictions. This work is motivated by the challenge of abiotic mimicry facing NASA's Europa Clipper (Pappalardo et al. 2024) and its MAss Spectrometer for Planetary EXploration (MASPEX) instrument (Waite et al. 2024).
 
 This work transforms 154 py-GC-MS biotic and abiotic datasets into normalised py-MS features analogous to MASPEX's intermediate data products. Four classifier architectures (Logistic Regression, SVC, Random Forest, XGBoost) are trained and evaluated. Model predictions are interpreted using permutation feature importance, coefficient analysis, and SHapley Additive exPlanations (SHAP) to identify informative m/z fragment ions and determine abundance-dependent relationships between interacting features. 
 
 The resulting `mlbiosig` Python package provides an automated implementation of the preprocessing, feature engineering, model training, evaluation, and interpretability frameworks developed across this study.
 
-> **Accompanying Paper**: *'From Mass Spectra to Biosignatures: Interpretable Machine Learning for Life Detection on Icy Ocean Worlds'*. (in preparation).
+> **Accompanying Paper**: *'From Mass Spectra to Biosignatures: Interpretable Machine Learning for Life Detection on Icy Ocean Worlds'*, in preparation.
 
 
 ## Repository Structure
