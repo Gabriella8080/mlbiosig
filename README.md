@@ -1,6 +1,6 @@
 # mlbiosig: Machine Learning Tool for Biosignature Interpretation on Icy Ocean Worlds
 
-![License](https://img.shields.io/badge/license-BSD--3-blue)
+![CI](https://github.com/Gabriella8080/mlbiosig/actions/workflows/CI.yml/badge.svg) ![License](https://img.shields.io/badge/license-BSD--3-blue)
 
 
 ## Overview
@@ -11,7 +11,7 @@ This work transforms 154 py-GC-MS biotic and abiotic datasets into normalised py
 
 The resulting `mlbiosig` Python package provides an automated implementation of the preprocessing, feature engineering, model training, evaluation, and interpretability frameworks developed across this study.
 
-> **Accompanying Paper**: *'From Mass Spectra to Biosignatures: Interpretable Machine Learning for Life Detection on Icy Ocean Worlds'*, in preparation.
+> **Accompanying Paper**: *'From Mass Spectra to Biosignatures: Interpretable Machine Learning for Life Detection on Icy Ocean Worlds'*, accepted at the NeurIPS 2026 Interpretability for Discovery Workshop.
 
 
 ## Repository Structure
